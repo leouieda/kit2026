@@ -18,7 +18,7 @@
 %Para formatação melhorada
 \usepackage{microtype}
 %Para as citações
-\usepackage[round,authoryear,short]{natbib}
+\usepackage[round,authoryear,sort]{natbib}
 
 % Configurações de formato do documento (chamam os pacotes que importamos acima)
 %Configura os metadados do nosso pdf
@@ -34,3 +34,31 @@ pdfauthor={Leonardo Uieda, Yago M. Castro, Arthur Siqueira-Macedo},
 %Permitir a quebra de linha no meio dos links
 breaklinks=true,
 }
+
+%Vamos começar EBA!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{Mudança na temperatura média de países nos últimos cinco anos}
+\author{
+	Leonardo Uieda\textsuperscript{1,2},
+	Yago M. Castro\textsuperscript{1,2},
+	Arthur Siqueira-Macedo\textsuperscript{1,2}
+	\\[0.2cm]
+	{\small
+		\textsuperscript{1}Computer-Oriented Geoscience Lab;
+		\textsuperscript{2}Universidade de São Paulo, Brasil
+	}
+}
+
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+Analisando a série de dados históricos de temperatura de 225 países,
+foram observados que os países com a menor variação de temperatura
+terminam todos com ÃO
+\end{abstract}
+ 
+\end{document}
