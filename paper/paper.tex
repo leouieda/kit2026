@@ -1,6 +1,10 @@
 %Aqui vai o comando para o tipo de documento e formatação da página
 \documentclass[twocolumn,A4]{article}
 
+% Definição de variáveis
+\input{variaveis/npaises.tex}
+
+
 %Pacotes que vamos (normalmente estão na maior parte dos documentos)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Para caracteres especiais
@@ -56,8 +60,10 @@ breaklinks=true,
 \maketitle
 
 \begin{abstract}
-Analisando a série de dados históricos de temperatura de 225 países,
-foram observados que os países com a menor variação de temperatura
+Analisando a série de dados históricos de temperatura 
+de \NPaises{} países,
+foram observados que os países com a menor variação de 
+temperatura
 terminam todos com ÃO
 \end{abstract}
 
