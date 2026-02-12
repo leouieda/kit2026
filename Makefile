@@ -5,6 +5,9 @@
 
 all: figuras/taxas_variacao.png
 
+paper/paper.pdf: paper/paper.tex 
+	tectonic -X compile paper/paper.tex
+
 data/temperature-data.zip: code/baixa_dados.py
 	python code/baixa_dados.py
 
